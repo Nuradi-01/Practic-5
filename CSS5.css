@@ -1,0 +1,401 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Lato';
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+
+/* HEADER */
+header{
+	background-image: url('Rectangle 3.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 783px ;
+	z-index: 1;
+
+}                    
+.header{
+	width: 100%;
+	height: 783px;
+	background-color: red;
+	z-index: 3;
+	opacity: 0.75;
+}
+.logo{
+	font-family: "Lato";
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	margin-top: 60px;
+}
+.logo i{
+	padding-right: 7px;
+}
+nav ul{
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Lato";
+	color: white;
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button-header{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+}
+.header-title{
+	margin-top: 150px;
+	padding-left: 150px;
+	text-align: center;
+	font-size: 72px;
+	color: white;
+	font-weight: 700;
+	
+}
+.header-title-desk{
+	font-size: 24px;
+	font-weight: 400;
+	width: 660px;
+	margin: auto;
+	margin-top: 40px;
+	padding-left: 150px;
+	color: white;
+	text-align: center;
+}
+.Sign-button{
+	width: 160px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: white;
+	color:#ED4C5C ;
+	text-align: center;
+	line-height: 50px;
+	
+	margin-top: 40px;
+	margin-left: 650px;
+	
+}
+/* MAIN */
+/* 1 CONTAINER */
+.desk{
+	margin-top: 95px;
+	margin-bottom: 95px;
+	width: 480px;
+	height: 270px;
+}
+.desk h3{
+	font-size: 36px;
+	font-family: "Lato";
+	font-weight: 600;
+}
+.desk p{
+	font-family: "Lato";
+	font-weight: 400;
+	padding-top: 25px;
+	font-size: 14px;
+}
+.desk span{
+	padding-top: 15px;
+	color:#ED4C5C ;
+}
+
+.video-img{
+	position: relative;
+	width: 445px;
+	margin-top: 95px;
+	margin-bottom: 95px;
+	height: 310px;
+	background-image: url('Video_bg.png');
+	background-size: cover;
+}
+.play{
+	position: absolute;
+	top: 120px ;
+	right: 410px;
+	color: white;
+	text-align: center;
+	width: 66px;
+	height: 66px;
+	line-height: 66px;
+	border-radius: 50%;
+	background-color:red ;
+	font-size: 18px;
+}
+/* 2 CONTAINER Features */
+.FEATURES{
+	background-color:#FAFAFA ;
+	height: 670px;
+}
+.Features-title{
+	padding-top: 65px;
+	padding-left: 46%;
+	font-size: 36px;
+	font-family: "Lato";
+	font-weight: 600;
+
+}
+.features-blok-1{
+	margin-top: 65px;
+	width: 350px ;
+	height: 250px;
+	background-image: url('Bg.png');
+	background-size: cover;
+	position: relative;
+}
+.desk-features{
+	width: 295px;
+	height: 200px;
+	text-align: center;
+	border-radius: 8px;
+	background-color: white;
+	position: absolute;
+	top: 157px;
+	left: 30px;
+}
+.desk-features h5{
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Lato";
+	padding: 30px 30px 20px 30px;
+}
+.desk-features p {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: "Lato";
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.desk-features span{
+	color: #ED4C5C;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: "Lato";
+
+}
+
+.features-blok-2{
+	margin-top: 65px;
+	width: 350px ;
+	height: 250px;
+	background-image: url('Bg2.png');
+	background-size: cover;
+	position: relative;
+}
+.features-blok-3{
+	margin-top: 65px;
+	width: 350px ;
+	height: 250px;
+	background-image: url('Bg3.png');
+	background-size: cover;
+	position: relative;
+}
+/* 3 CONTAINER Technology */
+
+.Technology-title{
+	padding-top: 65px;
+	padding-left: 46%;
+	font-size: 36px;
+	font-family: "Lato";
+	font-weight: 600;
+}
+.number-1{
+	margin-top: 65px;
+	margin-left: 140px;
+	width: 255px;
+	height: 225px;
+	background-image: url('01.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+.number-1 img{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 40px;
+	left: 25px;
+}
+
+
+.number-2{
+	margin-top: 65px;
+	margin-left: 140px;
+	width: 255px;
+	height: 225px;
+	background-image: url('02.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+.number-2 img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.number-3{
+	margin-top: 65px;
+	margin-left: 140px;
+	width: 255px;
+	height: 225px;
+	background-image: url('03.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+.number-3 img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 45px;
+	left: 30px;
+}
+.number-4{
+	margin-top: 65px;
+	margin-left: 140px;
+	width: 255px;
+	height: 225px;
+	background-image: url('04.png');
+	background-repeat: no-repeat;
+	position: relative;
+}
+.number-4 img{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 45px;
+	left: 30px;
+}
+.desk-numbers {
+	width: 200px;
+	position: absolute;
+	top: 110px ;
+	right: 90px;
+
+}
+.desk-numbers h5{
+	font-weight: 700;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 18px;
+}
+.desk-numbers p{
+	text-align: center;
+	font-family: "Lato";
+	font-size: 12px;
+}
+/* 4 CONTAINER STAY */
+.Stay-container{
+	margin-top:100px ;
+	background-color:red ;
+	height: 500px;
+}
+.stay-desk{
+	margin-top: 120px;
+	width: 550px;
+	height: 210px;
+	
+}
+.stay-desk h2{
+	font-size: 36px;
+	font-weight: 600;
+	font-family:"Lato" ;
+	color:#FFFFFF;
+}
+.stay-desk p{
+	padding-top: 24px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family:"Lato" ;
+	color: #FFFFFF;
+}
+.stay-icon{
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+	width: 145px;
+	height: 35px;
+
+}
+.stay-icon img{
+	width: 32px;
+	height: 32px;
+}
+
+
+.stay-img{
+	margin-top: 120px;
+	width: 570px;
+	height: 315px;
+	display: flex;
+	position: relative;
+}
+
+.img-1 img{
+	width: 300px;
+	height: 300px;
+	padding-bottom: 25px;
+	position: absolute;
+	top: 10px;
+	left: 3px;
+	right: 10px;
+
+}
+ .stay-img img{
+	width: 445px;
+	height: 310px;
+	position: absolute;
+	right: 50px;
+	z-index: 100;
+}
+.img-2 img{
+	position: absolute;
+	top: 20px ;
+	right: 5px;
+	z-index: 3;
+	width:380px ;
+	height: 265px;
+}
+/* FOOTER */
+footer{
+	height: 440px;
+	background-color:#FAFAFA ;
+}
+.adres{
+	margin-top: 85px;
+	height: 265px;
+}
+.adres h5{
+	font-size: 18px;
+	font-family: "Lato" ;
+	font-weight: 700;
+}
+.adres p{
+	font-size:12px ;
+	padding-top:35px ;
+}
+
+.adres p i{
+	font-size:15px ;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.adres img{
+	margin-top: 35px;
+	width: 215px;
+	height: 30px;
+}
+.desk-web p{
+	padding-top: 100px;
+}
